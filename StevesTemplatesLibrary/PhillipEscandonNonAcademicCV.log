@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.1)  1 JAN 2025 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.1)  1 JAN 2025 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,21 +745,21 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
  ***********
 Package rerunfilecheck Info: File `PhillipEscandonNonAcademicCV.out' has not changed.
-(rerunfilecheck)             Checksum: 5387471FE7B919C03BD86FB6CCA1FCF2;4667.
+(rerunfilecheck)             Checksum: D3D99087A4C47A149973A596A2103622;4516.
  ) 
 Here is how much of TeX's memory you used:
- 26186 strings out of 475213
- 482740 string characters out of 5764878
- 883839 words of memory out of 5000000
- 48484 multiletter control sequences out of 15000+600000
- 601434 words of font info for 188 fonts, out of 8000000 for 9000
+ 26178 strings out of 475213
+ 482662 string characters out of 5764878
+ 883798 words of memory out of 5000000
+ 48482 multiletter control sequences out of 15000+600000
+ 601153 words of font info for 184 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,11n,121p,1040b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/phill/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk><c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb><c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on PhillipEscandonNonAcademicCV.pdf (3 pages, 96051 bytes).
+Output written on PhillipEscandonNonAcademicCV.pdf (3 pages, 95130 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 61677 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 61669 words of extra memory for PDF output out of 61914 (max. 10000000)
 

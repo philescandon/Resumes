@@ -140,15 +140,6 @@ University.
 -   Learning. Responsible for some inherited image analysis code. Older,
     less modern syntax, but it all works.
 
-## 1- 5 Year outlook
-
-I would like to apply my data analysis and machine learning skills to
-capture and analyze some of our more pressing data issues, which include
-fault analysis (Machine Learning Decision Trees), mission re-creation
-(text analysis) and even Convolutional Neural Networks to analyze
-imagery. While I've tested many facets of our program, we require a more
-holistic approach that answers our technical questions as well as those
-of our customers.
 
 # References (RTX Employees)
 
