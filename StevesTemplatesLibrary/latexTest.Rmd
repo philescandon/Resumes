@@ -1,0 +1,6 @@
+---
+title: "Test Document"
+output: pdf_document
+---
+
+Hello, LaTeX!

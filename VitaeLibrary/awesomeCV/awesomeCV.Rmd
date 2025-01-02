@@ -1,0 +1,67 @@
+---
+name: Hannah
+surname: Escandon
+position: "Student :International Affairs / Journalism"
+address: "Northeastern University, Boston, MA."
+phone: +1 603 233 9457
+www: hannahescandon.journoportfolio.com
+email: "escandon.h@northeastern.edu"
+twitter: 
+github: 
+linkedin: hannah-escandon-227695256
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some stuff about me
+
+-   I poisoned myself doing research. Not fun.
+-   I was the first woman to win a Nobel prize
+-   I was the first person and only woman to win a Nobel prize in two different sciences.
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Candidate - BA International Studies / Journalism", "2025 May", "Northeastern University, College of Arts, Media and Design", "Boston, MA., USA",
+  "Study Abroad", "2022", "The New College of Humanities", "London, England",
+  "Hollis Brookline High School", "June 2021", "Hollis Brookline High School", "Hollis, NH., USA"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiential Learning
+
+```{r}
+tribble(
+  ~Year, ~Type     , ~Description,
+  2023, "Journalism ", "Video Project",
+  2023, "Journalism ", "Magazine Article",
+  2023, "International Affairs ", "Conflicts Podcast",
+  2023, "International Affairs ", "Dialogue of Civilizations"
+) %>% 
+  brief_entries(
+    # glue::glue("Nobel Prize in {Type}"),
+    Year, Type, Description
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```

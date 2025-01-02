@@ -1,0 +1,165 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "CV"
+author: Phillip Escandon
+
+jobtitle: "Image Analyst"
+address: "7 Kodiak Rd Brookline, NH 03033"
+fontawesome: yes
+email: phillip.escandon@gmail.com
+# github: svmiller
+# twitter: stevenvmiller
+#osf: "Enter 5 digit osf string here"
+phone: "603 852 9175"
+web:
+updated: TRUE
+rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
+keywords: R Markdown, R, matlab, python, test, analysis, secret, top secret
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+# Professional Experience
+
+## Collins Aerospace / RTX
+
+-   Various technical roles at Collins. Top Secret Clearance
+
+### Image Analyst / Mission Planner
+
+-   Analyze mission data and imagery for a classified domestic program
+
+-   Analyze and test imagery chain for our international customer
+
+-   Mission Planner for a classified program
+
+-   Support Domestic / International travel for flight tests/ In-Country
+    Check-Out
+
+### Image Science - Technical Trainer
+
+-   Image Analyst Course - Delivered two 6 week Image Analyst Courses to
+    our International customers. 16 students per class.
+
+-   Remote Sensing Course - Delivered a one week Remote Sensing course
+    for Pilots and Ground Station operators to our International
+    customers. 12 students trained.
+
+### Mission Planner for SYERS
+
+-   Mission planner for our SYERS domestic program. Planning and
+    executing missions for flight test.
+
+-   Requires domestic travel and working alongside our Lockheed Martin
+    counter-parts in Palmdale, CA.
+
+### Systems Engineer
+
+-   Systems Engineer for the MS110 and DB110 Image Systems.
+
+-   Conducted End to End testing and Analysis for our camera system,
+    datalink and ground station.
+
+-   Conducted System Integration tests at LM Ft Worth for the MS110 camera system 
+
+### Chief Engineer - International Aerospace Products.
+
+Technical lead for various international programs throughout the world
+including Afghanistan, Iraq, Jordan, Saudi Arabia and UAE. Customer
+facing. Matlab, Python, Powershell and R used for analysis tasks in
+various settings.
+
+### Field Service Engineer - Ground Station, Saudi Arabia.
+
+Trainer and operational Subject Matter Expert in Pod Operation, RECCE
+planning and mission data analysis. Python and powershell used
+extensively for analysis.
+
+### Integration and Test Engineer - DB110 Reconnaissance Pod.
+
+Conducted integration tests and analysis. Matlab and python used
+extensively.
+
+## Northrop Grumman
+
+-   Independent Verification and Validation (IVV Engineer) for the DDX
+    Warship program.
+
+-   Successfully implemented many matlab mission validation tests for
+    the program.
+
+## Various
+
+-   Cirrus Logic - DSP Tools (Custom Compiler)
+-   National Semiconductor - BIOS Development
+
+# Education
+
+## Undergraduate Program
+
+### B.S. Mathematics - Texas State University, San Marcos, Tx.
+
+1 course remaining for a Master Degree - Applied Data Analytics, Boston
+University.
+
+# Technical Skills
+
+## Matlab
+
+-   Various programmatic scripts to ingest data, analyze and provide
+    visual confirmation of pass / fail criteria. Attention and focus on
+    test setup and sufficient data capture for reproducible, independent
+    analysis.
+
+## Python
+
+-   Rewrote the body of current matlab scripts in python to overcome the
+    matlab licensing issues while traveling abroad or working offsite.
+
+## R
+
+-   Used extensively for report generation of technical details. By far
+    my favorite technical language with a clean IDE and good open source
+    support. Presently used for most of my current analysis.
+
+## Powershell
+
+-   Used more for general script work for generating quick looks and to
+    pinpoint problem datasets. Ubiquitous on Windows machines. No
+    license required.
+
+## ENVI / IDL
+
+-   Learning. Responsible for some inherited image analysis code. Older,
+    less modern syntax, but it all works.
+
+## 1- 5 Year outlook
+
+I would like to apply my data analysis and machine learning skills to
+capture and analyze some of our more pressing data issues, which include
+fault analysis (Machine Learning Decision Trees), mission re-creation
+(text analysis) and even Convolutional Neural Networks to analyze
+imagery. While I've tested many facets of our program, we require a more
+holistic approach that answers our technical questions as well as those
+of our customers.
+
+# References (RTX Employees)
+
+## Hy-Tu Vo
+
+## Jim Luening
+
+## Lawrence Scarff
+
+## Steve Hutchins
+
+## Bruce Sarnowitz
+
+## John Lacambria

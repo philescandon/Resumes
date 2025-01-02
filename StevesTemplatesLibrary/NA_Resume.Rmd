@@ -1,0 +1,168 @@
+---
+title: "Résumé"
+author: "Phillip Escandon"
+date: 11/24/2021"
+output: 
+  pagedown::pdf_resume:
+    dev: cairo_pdf
+fontawesome: TRUE
+email: Phillip.Escandon@gmail.com
+phone: 603-852-9175
+location: "Brookline, New Hampshire"
+github: philescandon
+#web: rbind.io
+twitter: "@philescandon"
+linkedin: "phillip-escandon-05b6851b3"
+geometry: "top=.25in, left =.5in, right=.5in, bottom=.5in"
+mainfont: cochineal
+sansfont: Fira Sans
+# monofont: Fira Code # I want to use this, but seems to choke on @
+urlcolor: blue
+fontsize: 11pt
+includephoto: FALSE
+myphoto: PhillipEscandon.jpg
+# shift: "7in,-.25in" # this is default
+photobigness: 1.75cm
+# photozoom: ".2\textwidth" # this is default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+<!-- Read more about Pandoc's [fenced_divs](https://pandoc.org/MANUAL.html#extension-fenced_divs) syntax -->
+
+::: columns
+::: {.column width="60%" data-latex="{0.60\\textwidth}"}
+# Professional Experience
+
+## Collins Aerospace
+
+### Image Analyst 
+Review, Assess, document collected test imagery for our new products,
+including our domestic products (Classified SECRET) and
+international product (Unclassified)
+
+
+### Image Science Technical Trainer
+
+Image Analyst Course - Delivered two 6 week Image Analyst Courses to our
+International customers Remote Sensing Course - Delivered a one week
+Remote Sensing course for Pilots and Ground Station operators to our
+International customers
+
+### Mission Planner for SYERS
+
+Mission planner for our SYERS domestic program. Planning and executing
+missions for flight test. Requires domestic travel and co-working with
+our Lockheed Martin counter-parts in Palmdale, CA.
+
+### Systems Engineer
+
+Systems Engineer for the MS110 and DB110 Camera
+
+### Chief Engineer - International Aerospace Products.
+
+Technical lead for various international programs throughout the world
+including Afghanistan, Iraq, Jordan, Saudi Arabia and UAE. Customer
+facing. Matlab, Python, Powershell and R used for analysis tasks in
+various settings.
+
+### Field Service Engineer - Ground Station, Saudi Arabia.
+
+Trainer and operational Subject Matter Expert in Pod Operation, RECCE
+planning and mission data analysis. Python and powershell used
+extensively for analysis.
+
+### Integration and Test Engineer - DB110 Reconnaissance Pod.
+
+Conducted integration tests and analysis. Matlab and python used
+extensively.
+
+
+# Education
+
+## Postgraduate Program
+
+### Masters - Applied Data Analytics- Boston University, Boston, MA. Spring 2022
+
+## Undergraduate Program
+
+### B.S. Mathematics - Texas State University, San Marcos, Tx.
+:::
+
+::: {.column width="2%" data-latex="{0.02\\textwidth}"}
+<!-- an empty div with an empty character to serve as a column sep -->
+:::
+
+::: {.column width="38%" data-latex="{0.38\\textwidth}"}
+# Technical Skills
+
+## Matlab
+
+-   Various programatic scripts to ingest data, analyze and provide
+    visual confirmation of pass / fail criteria. Attention and focus on
+    test setup and sufficient data capture for reproducible, independent
+    analysis.
+
+## Python
+
+-   Rewrote the body of current matlab scripts in python to overcome the
+    matlab licensing issues while traveling abroad or working offsite.
+
+## R
+
+-   Used sparingly for report generation of technical details. By far my
+    favorite technical language with a clean IDE and good open source
+    support.
+
+## Powershell
+
+-   Used more for general script work for generating quick looks and to
+    pinpoint problem datasets.
+
+## 1 year outlook
+
+I would like to apply my data analysis and machine learning skills to
+capture and analyze some of our more pressing data issues, which include
+fault analysis (Machine Learning Decision Trees), mission re-creation
+(text analysis) and even Convolutional Neural Networks to analyze
+imagery.
+
+# References
+
+## Hy-Tu Vo
+
+## Dwight Simpson
+
+## Steve Hutchins
+
+## Bruce Sarnowitz
+
+## John Lacambria
+:::
+:::
+
+<!-- If you want another page, this is how you can do it... -->
+
+```{=html}
+<!-- \newpage
+
+:::::: {.columns}
+::: {.column width="60%" data-latex="{0.60\textwidth}"}
+
+
+
+
+:::
+::: {.column width="2%" data-latex="{0.02\textwidth}"}
+\
+
+
+:::
+:::::: {.column width="38%" data-latex="{0.38\textwidth}"}
+
+
+:::
+::::::
+
+-->
+```

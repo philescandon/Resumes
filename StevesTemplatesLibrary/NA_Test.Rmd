@@ -1,0 +1,24 @@
+---
+title: "Résumé"
+author: "Phillip Escandon"
+date: "11/24/2021"
+output: 
+  stevetemplates::resume:
+    dev: cairo_pdf
+geometry: "top=.25in, left=.5in, right=.5in, bottom=.5in"
+fontsize: 10pt
+---
+
+\let\oldmaketitle\maketitle
+\renewcommand{\maketitle}{\oldmaketitle\thispagestyle{empty}}
+\linespread{0.9}
+
+# Professional Experience
+
+## Collins Aerospace
+
+- Various technical roles at Collins. Top Secret Clearance.
+
+# Education
+
+## B.S. Mathematics - Texas State University, San Marcos, Tx.

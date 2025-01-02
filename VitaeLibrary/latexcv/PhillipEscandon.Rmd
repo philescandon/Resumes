@@ -1,0 +1,65 @@
+---
+name: Phillip
+surname: Escandon
+position: ""
+address: ""
+phone: +1 603 852 9175
+www: 
+email: "Phillip.Escandon@gmail.com"
+github: philescandon
+linkedin: linkedin.com/in/
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::latexcv:
+    theme: classic
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+-   I love exploring data with R.
+-   I'm a born trouble shooter. To see what is under the rock, you must first pick it up.
+-   I have the stamina to stick with a problem, identify a few simple but key metrics, and find a solution.
+
+# Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Where, ~ Details,
+  "Mission Analyst", "2019-2024", "Westford,MA", "Analyzer mission data for a classified domestic program",
+  "Image Analyst", "2023-2024", "MA, CA", "Analyze and test imagery chain for our international customers",
+  "Mission Planner", "2023-2024", "MA, CA", "Mission Planner for a classfied program",
+  "Systems Engineer", "2019-2024", "OCONUS", "Domestic / International travel in support of flight tests and in-country checkout "
+) %>% 
+  detailed_entries(Position, Year, Where, Details)
+```
+
+# Nobel Prizes
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```

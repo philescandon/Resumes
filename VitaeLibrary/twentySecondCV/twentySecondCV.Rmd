@@ -1,0 +1,80 @@
+---
+name: Phillip
+surname: Escandon
+position: "Systems Engineer"
+address: "7 Kodiak Rd Brookline, NH"
+phone: +1 603 852 9175
+profilepic: phillipescandon.jpg
+www: p.escandon.dev
+email: "Phillip.Escandon@gmail.com"
+twitter: philescandon
+github: philescandon
+linkedin: Phil Escandon
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Phil is a Systems Engineer with Collins Aerospace and conducts  testing and research on Reconnaisance products"
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some stuff about me
+
+ * Maps, writing, photography and birding are passions.
+ * R is my favorite programming language
+ * Graduate school made me reflect on the need or lack thereof of higher education and training.
+ * Focused work is better.
+
+# Work
+
+```{r}
+library(tibble)
+tribble(
+  ~ jobTitle, ~ Year, ~ Institution, ~ Where,
+  "Northrop Grumman", "1889-91", "Flying University", "Warsaw, Poland",
+  "Collins Aerospace", "1893", "Sorbonne Université", "Paris, France",
+) %>% 
+  detailed_entries(jobTitle, Year, Institution, Where)
+```
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
+  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
+  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Nobel Prizes
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
+

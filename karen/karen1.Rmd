@@ -1,0 +1,54 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "Resume"
+author: Karen Escandon
+
+jobtitle: "Registered Nurse, BSN"
+address: "Brookline, NH 03033"
+fontawesome: yes
+email: karen.escandon@gmail.com
+# github: svmiller
+# twitter: stevenvmiller
+#osf: "Enter 5 digit osf string here"
+phone: "+1 603 673 3694"
+web:
+updated: TRUE
+rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+# Employment
+
+*HEDIS Review Abstractor, Annual Contract*
+
+Chief Brewer (Park Royal) \hfill 1935-1937
+
+Researcher (Dublin) \hfill 1899-1935
+
+# Education
+
+*Salem State University, Salem, MA*, B.S. Nursing \hfill 1987
+
+
+# Publications
+
+## Books
+
+Pearson, E.S. and John Wishart (eds.). 1943. *"Student's" Collected Papers* London: Biometrika Office.
+
+## Journal Articles
+
+Student. 1938. "Comparison between Balanced and Random Arrangements on Field Plots." *Biometrika* 29(3-4): 
+
+# References
+
+Available upon request, though likely would include Karl Pearson and Ronald A. Fisher. Please send corrections, feedback, or details of missed publications (of which there are probably a few) to svmille@clemson.edu.
