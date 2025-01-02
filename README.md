@@ -1,0 +1,1 @@
+These are some RMarkdown files that I've used to generate CVs of various styles.  I use R and RStudio to import the vitae library and the stevetemplates library and have the templates in my RStudio session.
